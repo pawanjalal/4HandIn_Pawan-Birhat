@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<Advertisements>
+  <Ad>
+    <NavigateUrl>www.myhugo.com</NavigateUrl>
+    <Impressions />
+    <ImageUrl>logo2.svg</ImageUrl>
+    <MyView />
+    <AlternateText>Tinycomp</AlternateText>
+  </Ad>
+  <Ad>
+    <NavigateUrl>www.lotsofcartoons.com</NavigateUrl>
+    <Impressions>55+ 66666666</Impressions>
+    <ImageUrl>logo3.svg</ImageUrl>
+    <MyView />
+    <AlternateText>Cartoons</AlternateText>
+  </Ad>
+  <Ad>
+    <NavigateUrl>www.superstudents.com</NavigateUrl>
+    <Impressions>777777</Impressions>
+    <ImageUrl>logo4.svg</ImageUrl>
+    <MyView />
+    <AlternateText>Web Developers</AlternateText>
+  </Ad>
+  <Ad>
+    <NavigateUrl>www.facebook.com</NavigateUrl>
+    <Impressions>31357209</Impressions>
+    <ImageUrl>logo1.svg</ImageUrl>
+    <AlternateText>JAMZITO</AlternateText>
+  </Ad>
+</Advertisements>
