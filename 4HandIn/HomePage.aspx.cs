@@ -191,8 +191,20 @@ namespace _4HandIn
 
         protected void ButtonTopMovie1_Click(object sender, EventArgs e)
         {
-            //Session["myMovieButton"] = Label1Poster.Text;
-            //Response.Redirect("~/Index.aspx");
+            Session["myMovie"] = Label1Poster.Text;
+            Response.Redirect("~/Index.aspx");
+        }
+
+        protected void ButtonTopMovie2_Click(object sender, EventArgs e)
+        {
+            Session["myMovie"] = Label2Poster.Text;
+            Response.Redirect("~/Index.aspx");
+        }
+
+        protected void ButtonTopMovie3_Click(object sender, EventArgs e)
+        {
+            Session["myMovie"] = Label3Poster.Text;
+            Response.Redirect("~/Index.aspx");
         }
     }
 }

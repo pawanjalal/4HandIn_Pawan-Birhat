@@ -128,6 +128,16 @@ body {
 
 }
 
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+        #form1{
+            margin:0px 0px 10px 0px;
+        }
+
+}
+
     </style>
 </head>
 <body style="background: #1b1b1b;">
@@ -193,18 +203,18 @@ body {
             <br />
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Label ID="LabelYear" runat="server" ForeColor="White"></asp:Label>
+            <asp:Label ID="LabelYear" Class="labels" runat="server" ForeColor="White"></asp:Label>
 &nbsp;&nbsp;
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp;
-            <asp:Label ID="LabelActors" runat="server" ForeColor="White"></asp:Label>
+            <asp:Label ID="LabelActors" Class="labels" runat="server" ForeColor="White"></asp:Label>
 &nbsp;&nbsp;
             <br />
             &nbsp;&nbsp; &nbsp;
-            <asp:Label ID="LabelAwards" runat="server" ForeColor="White"></asp:Label>
+            <asp:Label ID="LabelAwards" Class="labels" runat="server" ForeColor="White"></asp:Label>
             <br />
             &nbsp;&nbsp; &nbsp;
-            <asp:Label ID="LabelResults" runat="server" ForeColor="White"></asp:Label>
+            <asp:Label ID="LabelResults" Class="labels" runat="server" ForeColor="White"></asp:Label>
             <br />
             <br />
             &nbsp;&nbsp;&nbsp;
@@ -227,7 +237,7 @@ body {
 
         </div>
     </form>
-    <div class="footer">This footer is made by pawan and <strong>not Junaid</strong>.</div>
+    <div class="footer"> <strong>4 hand in</strong> made by pawan and Birhat.</div>
 
             <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

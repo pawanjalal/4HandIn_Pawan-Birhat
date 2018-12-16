@@ -227,7 +227,7 @@ body {
         </div>
     </form>
 
-    <div class="footer">This footer is made by pawan and <strong>not Junaid</strong>.</div>
+    <div class="footer"><strong>4 hand in</strong> made by pawan and Birhat.</div>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>

@@ -273,7 +273,7 @@ body {
             &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
                 
             <asp:Image ID="ImagePoster2" runat="server" Width="300px" />
-                <asp:Button ID="ButtonTopMovie2" class="btn btn-success" runat="server" Text="Movie Info"  />
+                <asp:Button ID="ButtonTopMovie2" class="btn btn-success" runat="server" Text="Movie Info" OnClick="ButtonTopMovie2_Click"  />
                 &nbsp;&nbsp;&nbsp;
                 <asp:Label ID="Label2Poster" runat="server" Text="Label" ForeColor="White"></asp:Label>
                 &nbsp;&nbsp;
@@ -295,7 +295,7 @@ body {
                 
            
             <asp:Image ID="ImagePoster3" runat="server" Width="300px" />
-                <asp:Button ID="ButtonTopMovie3" class="btn btn-success" runat="server" Text="Movie Info" />
+                <asp:Button ID="ButtonTopMovie3" class="btn btn-success" runat="server" Text="Movie Info" OnClick="ButtonTopMovie3_Click" />
                 &nbsp;&nbsp;
                 <asp:Label ID="Label3Poster" runat="server" Text="Label" ForeColor="White"></asp:Label>
                 &nbsp;&nbsp;
@@ -342,7 +342,7 @@ body {
 
 </div>
 
-<div class="footer">This footer is made by pawan and <strong>not Junaid</strong>.</div>
+<div class="footer"><strong>4 hand in</strong> made by pawan and Birhat.</div>
 
 
 
